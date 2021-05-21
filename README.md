@@ -24,11 +24,11 @@ Comparing the original vs. adjusted values confirms that voiding the 9th grade d
 
 A complete school summary was generated as a high-level snapshot of each school based on the district's defined metrics.  The following table represents the district wide School Summary (including THS adjusted values), indexed by school name, detailing the total student count, budget, a calculated per student budget, testing score averages and percentages, as well as the calculated Spending Ranges per student.
  
-![SchoolSum](School_District_Analysis/Images/SchoolSum.png)
+![SchoolSum](/Images/SchoolSum.PNG)
 
 Because the 9th grade test scores were removed from Thomas High School, the following side-by-side comparison is included for the THS School Summary Data, original values vs. adjusted values. 
 
-![SchoolSum-THS Summary](School_District_Analysis/Images/SchoolSum-THS Summary.png)
+![SchoolSum-THS Summary](/Images/SchoolSum-THS Summary.PNG)
 
 From this comparison it is clear that removing the 9th grade data had little impact on the school’s averages and overall percentages. There were 461 student’s test scores identified and removed in a school of 1635 students, a little more than 28% of the student body.  The most significant impact is seen in the “% Overall Passing” category which decreased by 0.3% in the adjusted table.  This suggests there was not wide variability in the testing score average and percent of students passing among the 9th grade class vs. the 10th, 11th, and 12th grades at THS.
 
@@ -36,39 +36,39 @@ From this comparison it is clear that removing the 9th grade data had little imp
 
 Budget allocation in a district is often determined by school performance.  The School Summary was filtered based on the calculated % Overall Passing where the district’s “high-performing” schools are selected as the top five schools with the highest overall percentage of passing students.  These are:
 
-![SchoolSum_TopPerformers](School_District_Analysis/Images/SchoolSum_TopPerformers.png)
+![SchoolSum_TopPerformers](/Images/SchoolSum_TopPerformers.PNG)
 
 In both the original school summary and after accounting for the adjusted values, Thomas High School remained the second highest performing school in the district.  The difference in % Overall Passing score was only three tenths of a percent decrease after adjustment.  This adjustment brings THS closer to the third highest performing school, Griffin High School.  When the Overall Percentages are rounded so that values are limited to three significant figures, Griffin High School is tied with Thomas High School at 90.6% Overall Passing.
 
 Low performing schools are selected as the five schools with the lowest overall percentage of passing students.  These are:
 
-![SchoolSum_LowPerformers](School_District_Analysis/Images/SchoolSum_LowPerformers.png)
+![SchoolSum_LowPerformers](/Images/SchoolSum_LowPerformers.PNG)
 
 
 ### Math and Reading Scores by Grade
 
 Summary tables of math and reading scores by grade were generated to visualize and determine areas for improvement by grade.  The averages for Thomas High School’s 9th grade are shown as “NaN.”
 
-![AvgByGrade](School_District_Analysis/Images/AvgByGrade.png)
+![AvgByGrade](/Images/AvgByGrade.PNG)
 
 
 ### Scores by School Spending
 
 Testing averages and percentage of passing scores were grouped and collected into DataFrames by arbitrarily determining spending ranges so that an equal number of schools can be divided and spending ranges assigned to classify how spending per student could affect score averages and passing rates. As demonstrated with the district wide summary, the removal of THS 9th grade scores did not have an impact on this district wide spending summary.
 
-![ScoresbySpending](School_District_Analysis/Images/ScoresbySpending.png)
+![ScoresbySpending](/Images/ScoresbySpending.PNG)
 
 ### Scores by School Size
 
 Average math and reading scores, the average percentage of students who passed math and reading, and the average overall percentage were grouped and listed based on school size.  There were three main categories for size including “Small” being less than 1000 students, “Medium” included the 1000 to 2000 student range, and “Large” was defined as between 2000 and 5000 students.  As with the other district wide summaries, the adjusted values had no impact on this summary table.
 
-![ScoresbySize](School_District_Analysis/Images/ScoresbySize.png)
+![ScoresbySize](/Images/ScoresbySize.PNG)
 
 ### Scores by School Type
 
 Testing averages and percentages of students passing were grouped by school types “Charter” vs. “District” to identify any trends between school type and student performance to show how school size affects score averages and passing rates.  Again, it is noted that this district-wide summary is not impacted by the adjusted values.
 
-![ScoresbyType](School_District_Analysis/Images/ScoresbyType.png)
+![ScoresbyType](/Images/ScoresbyType.PNG)
 
 
 ## Summary
