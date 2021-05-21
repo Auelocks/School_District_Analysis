@@ -28,7 +28,7 @@ A complete school summary was generated as a high-level snapshot of each school 
 
 Because the 9th grade test scores were removed from Thomas High School, the following side-by-side comparison is included for the THS School Summary Data, original values vs. adjusted values. 
 
-![SchoolSum-THS Summary](/Images/SchoolSum-THS Summary.PNG)
+![SchoolSum-THS Summary](Images/SchoolSum-THSSummary.PNG)
 
 From this comparison it is clear that removing the 9th grade data had little impact on the school’s averages and overall percentages. There were 461 student’s test scores identified and removed in a school of 1635 students, a little more than 28% of the student body.  The most significant impact is seen in the “% Overall Passing” category which decreased by 0.3% in the adjusted table.  This suggests there was not wide variability in the testing score average and percent of students passing among the 9th grade class vs. the 10th, 11th, and 12th grades at THS.
 
